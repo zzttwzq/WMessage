@@ -1,0 +1,6 @@
+framework module WMessage {
+  umbrella header "WMessage-umbrella.h"
+
+  export *
+  module * { export * }
+}

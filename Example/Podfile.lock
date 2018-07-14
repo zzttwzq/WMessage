@@ -1,0 +1,16 @@
+PODS:
+  - WMessage (0.1.0)
+
+DEPENDENCIES:
+  - WMessage (from `../`)
+
+EXTERNAL SOURCES:
+  WMessage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WMessage: 2b50ee06bf98ee576b6c785a21130cfca2ba7afa
+
+PODFILE CHECKSUM: 336cd5af9f72e80e259b71e12d7a6e1719d250eb
+
+COCOAPODS: 1.5.0
