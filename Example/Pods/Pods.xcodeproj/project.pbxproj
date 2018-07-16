@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C8E387C20FCF3B8000BA30A /* WToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8E387A20FCF3B8000BA30A /* WToast.h */; };
+		1C8E387D20FCF3B8000BA30A /* WToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8E387B20FCF3B8000BA30A /* WToast.m */; };
+		1C8E388320FCF3C5000BA30A /* WHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8E387F20FCF3C5000BA30A /* WHUDView.m */; };
+		1C8E388520FCF3C5000BA30A /* WHUDView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8E388120FCF3C5000BA30A /* WHUDView.h */; };
 		45348C1E8E10C9CEF06F00EFCBC8B5AB /* Pods-WMessage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA6F64A621F83CB0A845F985D1E51D8 /* Pods-WMessage_Tests-dummy.m */; };
 		59B62848B16788C79FD7F104B853D2B8 /* WMessage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A108EE92D7BE96A64F31831482CE7264 /* WMessage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		858E6CB0D92ACFEBF9DDD0A621F952E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		913F7D05F14ED1CCB64176D070199166 /* WMessage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E4FBC29A666D6EEA64086891B1614 /* WMessage-dummy.m */; };
-		91CD32F0364B9173653BD8306812B66F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F04A14EBD3225FD81F66939F41F4BF80 /* ReplaceMe.m */; };
 		C3CAD49889D54E8B0ED18E15F294DD93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		C9438B1A4986B90D9E555B6BB3E43CFD /* Pods-WMessage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D445404F36898E18B8A2BBDDCE720E4 /* Pods-WMessage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -28,6 +31,10 @@
 
 /* Begin PBXFileReference section */
 		0EA6F64A621F83CB0A845F985D1E51D8 /* Pods-WMessage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WMessage_Tests-dummy.m"; sourceTree = "<group>"; };
+		1C8E387A20FCF3B8000BA30A /* WToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WToast.h; path = WMessage/Classes/WToast.h; sourceTree = "<group>"; };
+		1C8E387B20FCF3B8000BA30A /* WToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WToast.m; path = WMessage/Classes/WToast.m; sourceTree = "<group>"; };
+		1C8E387F20FCF3C5000BA30A /* WHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WHUDView.m; path = WMessage/Classes/WHUDView.m; sourceTree = "<group>"; };
+		1C8E388120FCF3C5000BA30A /* WHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WHUDView.h; path = WMessage/Classes/WHUDView.h; sourceTree = "<group>"; };
 		2301A5414DE0A6AAAB99CB6D4A1B5780 /* Pods-WMessage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WMessage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3075DECBCDAEE25BC44E71354373603C /* Pods-WMessage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WMessage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3D445404F36898E18B8A2BBDDCE720E4 /* Pods-WMessage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WMessage_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -39,18 +46,17 @@
 		7596EC5C17FD3FCEAACC3B80C2AC9934 /* Pods-WMessage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WMessage_Tests.modulemap"; sourceTree = "<group>"; };
 		77FC3221B9220FBC355B0BE725A05FF6 /* Pods-WMessage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WMessage_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		907DE035AE1C175B2BBCE7B11CE6F3E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9826100EB74E01C7A9A69E086B8E126C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A108EE92D7BE96A64F31831482CE7264 /* WMessage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMessage-umbrella.h"; sourceTree = "<group>"; };
 		A40E4FBC29A666D6EEA64086891B1614 /* WMessage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WMessage-dummy.m"; sourceTree = "<group>"; };
 		B8DF6840318242E18177CCB3B2807214 /* WMessage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WMessage.modulemap; sourceTree = "<group>"; };
-		BBD40195237D7889F2D3BDD9D6192E63 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		D55ADC655D7B42C71F755A313EEEA3BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BBD40195237D7889F2D3BDD9D6192E63 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D55ADC655D7B42C71F755A313EEEA3BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ECAFB7DE1D1D799FB85A42EC0952BECD /* Pods-WMessage_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WMessage_Tests-resources.sh"; sourceTree = "<group>"; };
-		EF38B828BF1C388027641DA1F5C45B6C /* WMessage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WMessage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F04A14EBD3225FD81F66939F41F4BF80 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WMessage/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		F8193C01325A65553D3C7D3EC86064A0 /* Pods_WMessage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WMessage_Tests.framework; path = "Pods-WMessage_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAD8F5C90F5D69D2A38CF1BD018C2E70 /* WMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WMessage.framework; path = WMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF38B828BF1C388027641DA1F5C45B6C /* WMessage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = WMessage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F8193C01325A65553D3C7D3EC86064A0 /* Pods_WMessage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WMessage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD8F5C90F5D69D2A38CF1BD018C2E70 /* WMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +133,10 @@
 		965FE1DABD35F545E1A0AE4A9DC568AD /* WMessage */ = {
 			isa = PBXGroup;
 			children = (
-				F04A14EBD3225FD81F66939F41F4BF80 /* ReplaceMe.m */,
+				1C8E387A20FCF3B8000BA30A /* WToast.h */,
+				1C8E387B20FCF3B8000BA30A /* WToast.m */,
+				1C8E388120FCF3C5000BA30A /* WHUDView.h */,
+				1C8E387F20FCF3C5000BA30A /* WHUDView.m */,
 				F11E98CF6D4F410E8943C00F48530AD1 /* Pod */,
 				5613BEB35A73FF3654A632B102C72BD6 /* Support Files */,
 			);
@@ -193,7 +202,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C8E387C20FCF3B8000BA30A /* WToast.h in Headers */,
 				C9438B1A4986B90D9E555B6BB3E43CFD /* Pods-WMessage_Tests-umbrella.h in Headers */,
+				1C8E388520FCF3C5000BA30A /* WHUDView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +278,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91CD32F0364B9173653BD8306812B66F /* ReplaceMe.m in Sources */,
 				913F7D05F14ED1CCB64176D070199166 /* WMessage-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C8E388320FCF3C5000BA30A /* WHUDView.m in Sources */,
 				45348C1E8E10C9CEF06F00EFCBC8B5AB /* Pods-WMessage_Tests-dummy.m in Sources */,
+				1C8E387D20FCF3B8000BA30A /* WToast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
