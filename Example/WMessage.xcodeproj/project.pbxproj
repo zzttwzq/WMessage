@@ -405,10 +405,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WMessage_Tests/Pods-WMessage_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/WBasicLibrary/WBasicLibrary.framework",
 				"${BUILT_PRODUCTS_DIR}/WMessage/WMessage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WBasicLibrary.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WMessage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

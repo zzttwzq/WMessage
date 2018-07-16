@@ -7,72 +7,163 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C8E387C20FCF3B8000BA30A /* WToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8E387A20FCF3B8000BA30A /* WToast.h */; };
-		1C8E387D20FCF3B8000BA30A /* WToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8E387B20FCF3B8000BA30A /* WToast.m */; };
-		1C8E388320FCF3C5000BA30A /* WHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8E387F20FCF3C5000BA30A /* WHUDView.m */; };
-		1C8E388520FCF3C5000BA30A /* WHUDView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8E388120FCF3C5000BA30A /* WHUDView.h */; };
-		45348C1E8E10C9CEF06F00EFCBC8B5AB /* Pods-WMessage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA6F64A621F83CB0A845F985D1E51D8 /* Pods-WMessage_Tests-dummy.m */; };
-		59B62848B16788C79FD7F104B853D2B8 /* WMessage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A108EE92D7BE96A64F31831482CE7264 /* WMessage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		858E6CB0D92ACFEBF9DDD0A621F952E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		913F7D05F14ED1CCB64176D070199166 /* WMessage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E4FBC29A666D6EEA64086891B1614 /* WMessage-dummy.m */; };
-		C3CAD49889D54E8B0ED18E15F294DD93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C9438B1A4986B90D9E555B6BB3E43CFD /* Pods-WMessage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D445404F36898E18B8A2BBDDCE720E4 /* Pods-WMessage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		018DCE24893DF2293CEF86A72F67871A /* UILabel+WHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CFB13DD0AC0D5E5069E012368DC1605 /* UILabel+WHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0772105DB083B774F58141C6B9469ED1 /* WBasicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A160B2A554646DAC1DE437F111A97EA6 /* WBasicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		081259B0922F3A1F04F97B33E6DCF7C2 /* NSData+AES256_.h in Headers */ = {isa = PBXBuildFile; fileRef = 713C29B990AE6E822B86B47AA9B653DB /* NSData+AES256_.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		100CD391355939F7CF1444BEF010D4AE /* UIColor+Whandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C199E44B90313EA31E4DF1DF8DEA3 /* UIColor+Whandler.m */; };
+		1AF872237A3ED790E7FADEB45A3B6D68 /* UIViewController+TableHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D2E7547EFC81C6CE928D2736168F6 /* UIViewController+TableHandler.m */; };
+		1E8D1772DFDE5D6803B2FEDE00B4A80F /* UIView+WHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DFDADD82E749D79DA44BB7B89D3F183 /* UIView+WHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		229EE109DB071B7D8359EA71407BBC5B /* WMessage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D286F6B8A44FDFFC3C6998F5ADC7EDF4 /* WMessage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24F02C4ED8D7CEF15F77BD3F442ECA53 /* WToast.h in Headers */ = {isa = PBXBuildFile; fileRef = C3D0AF6016F997D18740B4A399B9EEC0 /* WToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		302606A61E2287CD29A05EE8B0CBAF58 /* UIViewController+WebHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A25734B74AAC42B1A537185BDF26E6 /* UIViewController+WebHandler.m */; };
+		3DE4AB9DB168E1006AB0E2CEFE9171E5 /* NSData+AES256_.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD48D6E8CEC0D28AF3BC58978D3A50 /* NSData+AES256_.m */; };
+		3F0568E71199AFAF8357E355A30E74D7 /* Pods-WMessage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D445404F36898E18B8A2BBDDCE720E4 /* Pods-WMessage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40C1BE296678A9F6920B53EDF7EC87D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C288E1909B4CE485001EA7FB6EFC88 /* Foundation.framework */; };
+		422B1CBC30482750F4B196FCE0316262 /* UIImage+WHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E3A47F2B91C2998BF202CA728F2359 /* UIImage+WHandler.m */; };
+		59A318B0C7C4C858A325F2DFA33E3A4F /* MicroDefinetion.h in Headers */ = {isa = PBXBuildFile; fileRef = 7313C0E3CD0B21BD42A58CC1E9AE9C5F /* MicroDefinetion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A853340EF6F6373CB6222636FDE8927 /* WMessage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8501839CE84678F89DB78C298C5D5835 /* WMessage-dummy.m */; };
+		65CD4487684B9A1DFD2191F047161703 /* NSObject+Whandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C255ED31FC9E4EE003A96825F101E43 /* NSObject+Whandler.m */; };
+		6C4BDFCF6842E4434D209A58888D48B3 /* UIViewController+WebHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = F2F3A7203774C376B16225A3D048B99B /* UIViewController+WebHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0C83E26B5208CB96C72D71EE2A2B1E /* NSString+WHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A26973A7534D181637ECF3DF6544CF /* NSString+WHandler.m */; };
+		74F1017646AB0A6DCB7EF29CA16D7B1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C288E1909B4CE485001EA7FB6EFC88 /* Foundation.framework */; };
+		7C9B009E3123B393DB171C0BFDBDCD23 /* WHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B6B312D1F85EE89DC76D522C19F2F9 /* WHUDView.m */; };
+		7F4D496EB64B39B44330C11D7E8CF440 /* UIView+WHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 640E28A80B78BFF21304D8930E78E634 /* UIView+WHandler.m */; };
+		888737BF9BCC27FAEC7B29981449D084 /* WBasicLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B408A69609D2B2D287795D8ADD66B5DC /* WBasicLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9888ACC9E95E9A0E022B3220BC41EB02 /* NSDate+Whandler.h in Headers */ = {isa = PBXBuildFile; fileRef = F2A975E1C1DA5BF6696913348AB8B0F3 /* NSDate+Whandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A5AC09A5E1E6505D96120FB2BB7FAE8 /* UIViewController+BasicHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5293E982960E4F95CF077EE0F96AEF69 /* UIViewController+BasicHandler.m */; };
+		9DDE8B92C860A270BFE87F5E643CA8E3 /* NSObject+Whandler.h in Headers */ = {isa = PBXBuildFile; fileRef = B882A37E49E76D1F1DB8FD973852F288 /* NSObject+Whandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4F993FB3867C8BC4F076F21FE312A87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C288E1909B4CE485001EA7FB6EFC88 /* Foundation.framework */; };
+		A8994D270756113FA707D12B3EC7A1CE /* NSData+Base64_.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F3F0D814D10095632300757D56D26AA /* NSData+Base64_.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADFA6E10A531EA0B748DCDADEBF58E54 /* NSData+Base64_.m in Sources */ = {isa = PBXBuildFile; fileRef = 5440FD282559CD566F1169DB3E7B50B6 /* NSData+Base64_.m */; };
+		AEF2F9974B4C7B6A23B78A18391D30EF /* WBasicLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B749E8CDBA2D780D59BCF5469DD074C /* WBasicLibrary.framework */; };
+		B676324E6C5CAD47452925C1F3AB4F91 /* NSDate+Whandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D0CC9D8EB1E16BB9851D49C62AE74F /* NSDate+Whandler.m */; };
+		BB90B545927E81850037468277DFE145 /* WToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D918493FE927FBED5112C79F245082 /* WToast.m */; };
+		BBEB4A9715EAF728CDEB9DF80714DE1D /* NSMutableArray+WHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C85B97EA64C0488ABC8CB5272126FA7 /* NSMutableArray+WHandler.m */; };
+		C0726D4B00A28D2BF5C6B37D324A64D5 /* UIViewController+BasicHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B53F2B90A8C79FACB193660BAA83C57 /* UIViewController+BasicHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C15D87F8CF7EFB230607577C65FD1EBC /* UILabel+WHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 231510D49DF59C10E6DCC6C412B37D11 /* UILabel+WHandler.m */; };
+		C48840C56AB763DA656013B2E191F0B5 /* NSMutableArray+WHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = DFDAB3FB70E38B4196D2C781FABC5529 /* NSMutableArray+WHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C54F7DD94BE677A3E9D0FA9336D1665B /* UIImage+WHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE9BF817785B7F871140DD92E4CA846 /* UIImage+WHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD88092DCEE7958CB478458A9766423C /* NSString+WHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A9F8D77A379E7E26C9CCAEEE4F0C56B /* NSString+WHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5F1C827858D11A87516299281BA8EBB /* WBasicLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 531CF335FB611195ECB498E9F1920E3A /* WBasicLibrary-dummy.m */; };
+		D6552D0DFB94D3DF91AC2A0F9EC84729 /* UIColor+Whandler.h in Headers */ = {isa = PBXBuildFile; fileRef = FFEA998C08C5C27F45ED30EC2C7AFCDE /* UIColor+Whandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9D26804AB89BEB9C1D716EC0E37C783 /* WHUDView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E0F16CBB6048F0EE43BAFC2F7CE93AB /* WHUDView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E23298694FC58DB4EBA7857319968052 /* Pods-WMessage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA6F64A621F83CB0A845F985D1E51D8 /* Pods-WMessage_Tests-dummy.m */; };
+		FE6371C8CD168BE22BE38F9664F44FC3 /* UIViewController+TableHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FF6F7A0B673E543F45543D096BA1226 /* UIViewController+TableHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6431F9FDF71A6F4DDDFCBFF1D0CA2A5E /* PBXContainerItemProxy */ = {
+		16E56B3C42CDEB051F6ADBCC38F6BF71 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 279DEE3605796492558A09744756C3FC;
+			remoteGlobalIDString = 0F47635698C1383941C7DED54F00EF29;
 			remoteInfo = WMessage;
+		};
+		88A5FBFF85B614AD6626B4F2255263F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84516D4765085933A2DDA9BD878628A3;
+			remoteInfo = WBasicLibrary;
+		};
+		BDE743238F8B4857D29A61A7CC34683F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84516D4765085933A2DDA9BD878628A3;
+			remoteInfo = WBasicLibrary;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00D918493FE927FBED5112C79F245082 /* WToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WToast.m; path = WMessage/Classes/WToast.m; sourceTree = "<group>"; };
+		01A2F553C9C3F1C132DD63C46F1F8729 /* WMessage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WMessage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0C255ED31FC9E4EE003A96825F101E43 /* NSObject+Whandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Whandler.m"; path = "WBasicLibrary/Classes/NSObject+Whandler.m"; sourceTree = "<group>"; };
 		0EA6F64A621F83CB0A845F985D1E51D8 /* Pods-WMessage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WMessage_Tests-dummy.m"; sourceTree = "<group>"; };
-		1C8E387A20FCF3B8000BA30A /* WToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WToast.h; path = WMessage/Classes/WToast.h; sourceTree = "<group>"; };
-		1C8E387B20FCF3B8000BA30A /* WToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WToast.m; path = WMessage/Classes/WToast.m; sourceTree = "<group>"; };
-		1C8E387F20FCF3C5000BA30A /* WHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WHUDView.m; path = WMessage/Classes/WHUDView.m; sourceTree = "<group>"; };
-		1C8E388120FCF3C5000BA30A /* WHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WHUDView.h; path = WMessage/Classes/WHUDView.h; sourceTree = "<group>"; };
 		2301A5414DE0A6AAAB99CB6D4A1B5780 /* Pods-WMessage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WMessage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		231510D49DF59C10E6DCC6C412B37D11 /* UILabel+WHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+WHandler.m"; path = "WBasicLibrary/Classes/UILabel+WHandler.m"; sourceTree = "<group>"; };
+		2955773F20D355CBEE9C63AAFC1AD234 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2A9F8D77A379E7E26C9CCAEEE4F0C56B /* NSString+WHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+WHandler.h"; path = "WBasicLibrary/Classes/NSString+WHandler.h"; sourceTree = "<group>"; };
 		3075DECBCDAEE25BC44E71354373603C /* Pods-WMessage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WMessage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B55F9B428E468E36393E85E3F0C36D4 /* WMessage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WMessage.modulemap; sourceTree = "<group>"; };
 		3D445404F36898E18B8A2BBDDCE720E4 /* Pods-WMessage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WMessage_Tests-umbrella.h"; sourceTree = "<group>"; };
-		506EDBBD2BB8C1D815732F753CD6EF18 /* WMessage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WMessage.xcconfig; sourceTree = "<group>"; };
+		47CE10114E3DAF521111915F33F266F0 /* WMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WMessage.framework; path = WMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C85B97EA64C0488ABC8CB5272126FA7 /* NSMutableArray+WHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+WHandler.m"; path = "WBasicLibrary/Classes/NSMutableArray+WHandler.m"; sourceTree = "<group>"; };
+		4D7D2E7547EFC81C6CE928D2736168F6 /* UIViewController+TableHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+TableHandler.m"; path = "WBasicLibrary/Classes/UIViewController+TableHandler.m"; sourceTree = "<group>"; };
+		5293E982960E4F95CF077EE0F96AEF69 /* UIViewController+BasicHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+BasicHandler.m"; path = "WBasicLibrary/Classes/UIViewController+BasicHandler.m"; sourceTree = "<group>"; };
+		531CF335FB611195ECB498E9F1920E3A /* WBasicLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WBasicLibrary-dummy.m"; sourceTree = "<group>"; };
+		5440FD282559CD566F1169DB3E7B50B6 /* NSData+Base64_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64_.m"; path = "WBasicLibrary/Classes/NSData+Base64_.m"; sourceTree = "<group>"; };
+		5B53F2B90A8C79FACB193660BAA83C57 /* UIViewController+BasicHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+BasicHandler.h"; path = "WBasicLibrary/Classes/UIViewController+BasicHandler.h"; sourceTree = "<group>"; };
+		5E841CA882AB7244D31C7BE2FDDE466B /* WBasicLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBasicLibrary-prefix.pch"; sourceTree = "<group>"; };
 		5F1760BE369478FE7462C9CD07C9765A /* Pods-WMessage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WMessage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		62C81576DDA2B59564F65678B80DB14E /* WMessage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMessage-prefix.pch"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5FDD48D6E8CEC0D28AF3BC58978D3A50 /* NSData+AES256_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+AES256_.m"; path = "WBasicLibrary/Classes/NSData+AES256_.m"; sourceTree = "<group>"; };
+		640E28A80B78BFF21304D8930E78E634 /* UIView+WHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WHandler.m"; path = "WBasicLibrary/Classes/UIView+WHandler.m"; sourceTree = "<group>"; };
+		6B37EC77962529E5E5703E7074423CE5 /* WBasicLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WBasicLibrary.modulemap; sourceTree = "<group>"; };
+		713C29B990AE6E822B86B47AA9B653DB /* NSData+AES256_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+AES256_.h"; path = "WBasicLibrary/Classes/NSData+AES256_.h"; sourceTree = "<group>"; };
 		7149AD84D67D7839F6D74A85DCBE7DAB /* Pods-WMessage_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WMessage_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7313C0E3CD0B21BD42A58CC1E9AE9C5F /* MicroDefinetion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MicroDefinetion.h; path = WBasicLibrary/Classes/MicroDefinetion.h; sourceTree = "<group>"; };
 		7596EC5C17FD3FCEAACC3B80C2AC9934 /* Pods-WMessage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WMessage_Tests.modulemap"; sourceTree = "<group>"; };
 		77FC3221B9220FBC355B0BE725A05FF6 /* Pods-WMessage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WMessage_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		907DE035AE1C175B2BBCE7B11CE6F3E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7869794DB251F3D4D064AA1E0A8B9685 /* WMessage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMessage-prefix.pch"; sourceTree = "<group>"; };
+		786D3B4E08B82FBD6224539715AC379F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E0F16CBB6048F0EE43BAFC2F7CE93AB /* WHUDView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WHUDView.h; path = WMessage/Classes/WHUDView.h; sourceTree = "<group>"; };
+		7FF6F7A0B673E543F45543D096BA1226 /* UIViewController+TableHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+TableHandler.h"; path = "WBasicLibrary/Classes/UIViewController+TableHandler.h"; sourceTree = "<group>"; };
+		8501839CE84678F89DB78C298C5D5835 /* WMessage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WMessage-dummy.m"; sourceTree = "<group>"; };
+		88D0CC9D8EB1E16BB9851D49C62AE74F /* NSDate+Whandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Whandler.m"; path = "WBasicLibrary/Classes/NSDate+Whandler.m"; sourceTree = "<group>"; };
+		8B749E8CDBA2D780D59BCF5469DD074C /* WBasicLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WBasicLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DFDADD82E749D79DA44BB7B89D3F183 /* UIView+WHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WHandler.h"; path = "WBasicLibrary/Classes/UIView+WHandler.h"; sourceTree = "<group>"; };
+		8F3F0D814D10095632300757D56D26AA /* NSData+Base64_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64_.h"; path = "WBasicLibrary/Classes/NSData+Base64_.h"; sourceTree = "<group>"; };
+		8F6C199E44B90313EA31E4DF1DF8DEA3 /* UIColor+Whandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Whandler.m"; path = "WBasicLibrary/Classes/UIColor+Whandler.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9826100EB74E01C7A9A69E086B8E126C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A108EE92D7BE96A64F31831482CE7264 /* WMessage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMessage-umbrella.h"; sourceTree = "<group>"; };
-		A40E4FBC29A666D6EEA64086891B1614 /* WMessage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WMessage-dummy.m"; sourceTree = "<group>"; };
-		B8DF6840318242E18177CCB3B2807214 /* WMessage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WMessage.modulemap; sourceTree = "<group>"; };
-		BBD40195237D7889F2D3BDD9D6192E63 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		D55ADC655D7B42C71F755A313EEEA3BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9CFB13DD0AC0D5E5069E012368DC1605 /* UILabel+WHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+WHandler.h"; path = "WBasicLibrary/Classes/UILabel+WHandler.h"; sourceTree = "<group>"; };
+		A160B2A554646DAC1DE437F111A97EA6 /* WBasicHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBasicHeader.h; path = WBasicLibrary/Classes/WBasicHeader.h; sourceTree = "<group>"; };
+		ADE831810D807E021C5EC945F89FB012 /* WBasicLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WBasicLibrary.framework; path = WBasicLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B6B312D1F85EE89DC76D522C19F2F9 /* WHUDView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WHUDView.m; path = WMessage/Classes/WHUDView.m; sourceTree = "<group>"; };
+		B2A25734B74AAC42B1A537185BDF26E6 /* UIViewController+WebHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+WebHandler.m"; path = "WBasicLibrary/Classes/UIViewController+WebHandler.m"; sourceTree = "<group>"; };
+		B3C368C4E1BEB74571563FCE8B9246E2 /* WBasicLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WBasicLibrary.xcconfig; sourceTree = "<group>"; };
+		B3E3A47F2B91C2998BF202CA728F2359 /* UIImage+WHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+WHandler.m"; path = "WBasicLibrary/Classes/UIImage+WHandler.m"; sourceTree = "<group>"; };
+		B408A69609D2B2D287795D8ADD66B5DC /* WBasicLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBasicLibrary-umbrella.h"; sourceTree = "<group>"; };
+		B882A37E49E76D1F1DB8FD973852F288 /* NSObject+Whandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Whandler.h"; path = "WBasicLibrary/Classes/NSObject+Whandler.h"; sourceTree = "<group>"; };
+		C3D0AF6016F997D18740B4A399B9EEC0 /* WToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WToast.h; path = WMessage/Classes/WToast.h; sourceTree = "<group>"; };
+		CFE9BF817785B7F871140DD92E4CA846 /* UIImage+WHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+WHandler.h"; path = "WBasicLibrary/Classes/UIImage+WHandler.h"; sourceTree = "<group>"; };
+		D1C288E1909B4CE485001EA7FB6EFC88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D212B566FD4E15F71ACFF93A8330FA4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D286F6B8A44FDFFC3C6998F5ADC7EDF4 /* WMessage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMessage-umbrella.h"; sourceTree = "<group>"; };
+		DFDAB3FB70E38B4196D2C781FABC5529 /* NSMutableArray+WHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+WHandler.h"; path = "WBasicLibrary/Classes/NSMutableArray+WHandler.h"; sourceTree = "<group>"; };
 		ECAFB7DE1D1D799FB85A42EC0952BECD /* Pods-WMessage_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WMessage_Tests-resources.sh"; sourceTree = "<group>"; };
-		EF38B828BF1C388027641DA1F5C45B6C /* WMessage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = WMessage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F8193C01325A65553D3C7D3EC86064A0 /* Pods_WMessage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WMessage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAD8F5C90F5D69D2A38CF1BD018C2E70 /* WMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A975E1C1DA5BF6696913348AB8B0F3 /* NSDate+Whandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Whandler.h"; path = "WBasicLibrary/Classes/NSDate+Whandler.h"; sourceTree = "<group>"; };
+		F2F3A7203774C376B16225A3D048B99B /* UIViewController+WebHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+WebHandler.h"; path = "WBasicLibrary/Classes/UIViewController+WebHandler.h"; sourceTree = "<group>"; };
+		F3A26973A7534D181637ECF3DF6544CF /* NSString+WHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+WHandler.m"; path = "WBasicLibrary/Classes/NSString+WHandler.m"; sourceTree = "<group>"; };
+		F670036022488F78B58B13F6807F3C59 /* WMessage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WMessage.xcconfig; sourceTree = "<group>"; };
+		FC56EB7E0D4BC1AE11CE26D4B1F9F41F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FE1A7B1B9B1A4A4FE39E1B8A63179FE0 /* Pods_WMessage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WMessage_Tests.framework; path = "Pods-WMessage_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFEA998C08C5C27F45ED30EC2C7AFCDE /* UIColor+Whandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Whandler.h"; path = "WBasicLibrary/Classes/UIColor+Whandler.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1B6DD39292522E6D8D31A3C7C26BC2E2 /* Frameworks */ = {
+		23C2142812C52C392A2DFA0E5EAE5EAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3CAD49889D54E8B0ED18E15F294DD93 /* Foundation.framework in Frameworks */,
+				A4F993FB3867C8BC4F076F21FE312A87 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B10B3677B571B36F0A95592EF53EC00A /* Frameworks */ = {
+		4772C0BFA3D67F3266D8157A72971250 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				858E6CB0D92ACFEBF9DDD0A621F952E3 /* Foundation.framework in Frameworks */,
+				40C1BE296678A9F6920B53EDF7EC87D8 /* Foundation.framework in Frameworks */,
+				AEF2F9974B4C7B6A23B78A18391D30EF /* WBasicLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5649F87B5ADDA97545344EBA583330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F1017646AB0A6DCB7EF29CA16D7B1F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,18 +178,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5613BEB35A73FF3654A632B102C72BD6 /* Support Files */ = {
+		5EA0E612016EF8BB5AC1AF99E517769C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				907DE035AE1C175B2BBCE7B11CE6F3E8 /* Info.plist */,
-				B8DF6840318242E18177CCB3B2807214 /* WMessage.modulemap */,
-				506EDBBD2BB8C1D815732F753CD6EF18 /* WMessage.xcconfig */,
-				A40E4FBC29A666D6EEA64086891B1614 /* WMessage-dummy.m */,
-				62C81576DDA2B59564F65678B80DB14E /* WMessage-prefix.pch */,
-				A108EE92D7BE96A64F31831482CE7264 /* WMessage-umbrella.h */,
+				FE1A7B1B9B1A4A4FE39E1B8A63179FE0 /* Pods_WMessage_Tests.framework */,
+				ADE831810D807E021C5EC945F89FB012 /* WBasicLibrary.framework */,
+				47CE10114E3DAF521111915F33F266F0 /* WMessage.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WMessage";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6146CB740C33F1304F31DECF04D6612F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6EA7957ED35BF937B7D3E4527DB3FA5 /* WMessage */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		6B2C7D4CBF8FD00633024B09C527D3CF /* Pods-WMessage_Tests */ = {
@@ -123,127 +218,227 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				EF762A8583A1C16EA9CA0B31FF5B155B /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				BD34C98DF403E925DD8F8358B5222898 /* Products */,
+				6146CB740C33F1304F31DECF04D6612F /* Development Pods */,
+				A6C2359CB59007BA71BC14B1F86E5EFB /* Frameworks */,
+				F748418947E795AF712B0031FE44B56E /* Pods */,
+				5EA0E612016EF8BB5AC1AF99E517769C /* Products */,
 				43244DEFDB67F3C2A9E950B8261A3D6A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		965FE1DABD35F545E1A0AE4A9DC568AD /* WMessage */ = {
+		A0D3007563D1B393D5A5766F938182FD /* WBasicLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				1C8E387A20FCF3B8000BA30A /* WToast.h */,
-				1C8E387B20FCF3B8000BA30A /* WToast.m */,
-				1C8E388120FCF3C5000BA30A /* WHUDView.h */,
-				1C8E387F20FCF3C5000BA30A /* WHUDView.m */,
-				F11E98CF6D4F410E8943C00F48530AD1 /* Pod */,
-				5613BEB35A73FF3654A632B102C72BD6 /* Support Files */,
+				7313C0E3CD0B21BD42A58CC1E9AE9C5F /* MicroDefinetion.h */,
+				713C29B990AE6E822B86B47AA9B653DB /* NSData+AES256_.h */,
+				5FDD48D6E8CEC0D28AF3BC58978D3A50 /* NSData+AES256_.m */,
+				8F3F0D814D10095632300757D56D26AA /* NSData+Base64_.h */,
+				5440FD282559CD566F1169DB3E7B50B6 /* NSData+Base64_.m */,
+				F2A975E1C1DA5BF6696913348AB8B0F3 /* NSDate+Whandler.h */,
+				88D0CC9D8EB1E16BB9851D49C62AE74F /* NSDate+Whandler.m */,
+				DFDAB3FB70E38B4196D2C781FABC5529 /* NSMutableArray+WHandler.h */,
+				4C85B97EA64C0488ABC8CB5272126FA7 /* NSMutableArray+WHandler.m */,
+				B882A37E49E76D1F1DB8FD973852F288 /* NSObject+Whandler.h */,
+				0C255ED31FC9E4EE003A96825F101E43 /* NSObject+Whandler.m */,
+				2A9F8D77A379E7E26C9CCAEEE4F0C56B /* NSString+WHandler.h */,
+				F3A26973A7534D181637ECF3DF6544CF /* NSString+WHandler.m */,
+				FFEA998C08C5C27F45ED30EC2C7AFCDE /* UIColor+Whandler.h */,
+				8F6C199E44B90313EA31E4DF1DF8DEA3 /* UIColor+Whandler.m */,
+				CFE9BF817785B7F871140DD92E4CA846 /* UIImage+WHandler.h */,
+				B3E3A47F2B91C2998BF202CA728F2359 /* UIImage+WHandler.m */,
+				9CFB13DD0AC0D5E5069E012368DC1605 /* UILabel+WHandler.h */,
+				231510D49DF59C10E6DCC6C412B37D11 /* UILabel+WHandler.m */,
+				8DFDADD82E749D79DA44BB7B89D3F183 /* UIView+WHandler.h */,
+				640E28A80B78BFF21304D8930E78E634 /* UIView+WHandler.m */,
+				5B53F2B90A8C79FACB193660BAA83C57 /* UIViewController+BasicHandler.h */,
+				5293E982960E4F95CF077EE0F96AEF69 /* UIViewController+BasicHandler.m */,
+				7FF6F7A0B673E543F45543D096BA1226 /* UIViewController+TableHandler.h */,
+				4D7D2E7547EFC81C6CE928D2736168F6 /* UIViewController+TableHandler.m */,
+				F2F3A7203774C376B16225A3D048B99B /* UIViewController+WebHandler.h */,
+				B2A25734B74AAC42B1A537185BDF26E6 /* UIViewController+WebHandler.m */,
+				A160B2A554646DAC1DE437F111A97EA6 /* WBasicHeader.h */,
+				DCE8CB5A1CC484A66A39F240F7D78FD1 /* Support Files */,
+			);
+			name = WBasicLibrary;
+			path = WBasicLibrary;
+			sourceTree = "<group>";
+		};
+		A5C5ECC61593653FF824DFB44DF999FA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2955773F20D355CBEE9C63AAFC1AD234 /* LICENSE */,
+				FC56EB7E0D4BC1AE11CE26D4B1F9F41F /* README.md */,
+				01A2F553C9C3F1C132DD63C46F1F8729 /* WMessage.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A6C2359CB59007BA71BC14B1F86E5EFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B749E8CDBA2D780D59BCF5469DD074C /* WBasicLibrary.framework */,
+				DCEA2078E7AA6438154B851383DD72DF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB89B50151201CD5AC4A1756C8185974 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				786D3B4E08B82FBD6224539715AC379F /* Info.plist */,
+				3B55F9B428E468E36393E85E3F0C36D4 /* WMessage.modulemap */,
+				F670036022488F78B58B13F6807F3C59 /* WMessage.xcconfig */,
+				8501839CE84678F89DB78C298C5D5835 /* WMessage-dummy.m */,
+				7869794DB251F3D4D064AA1E0A8B9685 /* WMessage-prefix.pch */,
+				D286F6B8A44FDFFC3C6998F5ADC7EDF4 /* WMessage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WMessage";
+			sourceTree = "<group>";
+		};
+		D6EA7957ED35BF937B7D3E4527DB3FA5 /* WMessage */ = {
+			isa = PBXGroup;
+			children = (
+				7E0F16CBB6048F0EE43BAFC2F7CE93AB /* WHUDView.h */,
+				B0B6B312D1F85EE89DC76D522C19F2F9 /* WHUDView.m */,
+				C3D0AF6016F997D18740B4A399B9EEC0 /* WToast.h */,
+				00D918493FE927FBED5112C79F245082 /* WToast.m */,
+				A5C5ECC61593653FF824DFB44DF999FA /* Pod */,
+				CB89B50151201CD5AC4A1756C8185974 /* Support Files */,
 			);
 			name = WMessage;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		DCE8CB5A1CC484A66A39F240F7D78FD1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				D212B566FD4E15F71ACFF93A8330FA4B /* Info.plist */,
+				6B37EC77962529E5E5703E7074423CE5 /* WBasicLibrary.modulemap */,
+				B3C368C4E1BEB74571563FCE8B9246E2 /* WBasicLibrary.xcconfig */,
+				531CF335FB611195ECB498E9F1920E3A /* WBasicLibrary-dummy.m */,
+				5E841CA882AB7244D31C7BE2FDDE466B /* WBasicLibrary-prefix.pch */,
+				B408A69609D2B2D287795D8ADD66B5DC /* WBasicLibrary-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/WBasicLibrary";
 			sourceTree = "<group>";
 		};
-		BD34C98DF403E925DD8F8358B5222898 /* Products */ = {
+		DCEA2078E7AA6438154B851383DD72DF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F8193C01325A65553D3C7D3EC86064A0 /* Pods_WMessage_Tests.framework */,
-				FAD8F5C90F5D69D2A38CF1BD018C2E70 /* WMessage.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				D1C288E1909B4CE485001EA7FB6EFC88 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EF762A8583A1C16EA9CA0B31FF5B155B /* Development Pods */ = {
+		F748418947E795AF712B0031FE44B56E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				965FE1DABD35F545E1A0AE4A9DC568AD /* WMessage */,
+				A0D3007563D1B393D5A5766F938182FD /* WBasicLibrary */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		F11E98CF6D4F410E8943C00F48530AD1 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				BBD40195237D7889F2D3BDD9D6192E63 /* LICENSE */,
-				D55ADC655D7B42C71F755A313EEEA3BF /* README.md */,
-				EF38B828BF1C388027641DA1F5C45B6C /* WMessage.podspec */,
-			);
-			name = Pod;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		146D5FF489003A40F792B5FB85DB5799 /* Headers */ = {
+		0815A6FACCEB5F76E4F974BD94A1727D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59B62848B16788C79FD7F104B853D2B8 /* WMessage-umbrella.h in Headers */,
+				59A318B0C7C4C858A325F2DFA33E3A4F /* MicroDefinetion.h in Headers */,
+				081259B0922F3A1F04F97B33E6DCF7C2 /* NSData+AES256_.h in Headers */,
+				A8994D270756113FA707D12B3EC7A1CE /* NSData+Base64_.h in Headers */,
+				9888ACC9E95E9A0E022B3220BC41EB02 /* NSDate+Whandler.h in Headers */,
+				C48840C56AB763DA656013B2E191F0B5 /* NSMutableArray+WHandler.h in Headers */,
+				9DDE8B92C860A270BFE87F5E643CA8E3 /* NSObject+Whandler.h in Headers */,
+				CD88092DCEE7958CB478458A9766423C /* NSString+WHandler.h in Headers */,
+				D6552D0DFB94D3DF91AC2A0F9EC84729 /* UIColor+Whandler.h in Headers */,
+				C54F7DD94BE677A3E9D0FA9336D1665B /* UIImage+WHandler.h in Headers */,
+				018DCE24893DF2293CEF86A72F67871A /* UILabel+WHandler.h in Headers */,
+				1E8D1772DFDE5D6803B2FEDE00B4A80F /* UIView+WHandler.h in Headers */,
+				C0726D4B00A28D2BF5C6B37D324A64D5 /* UIViewController+BasicHandler.h in Headers */,
+				FE6371C8CD168BE22BE38F9664F44FC3 /* UIViewController+TableHandler.h in Headers */,
+				6C4BDFCF6842E4434D209A58888D48B3 /* UIViewController+WebHandler.h in Headers */,
+				0772105DB083B774F58141C6B9469ED1 /* WBasicHeader.h in Headers */,
+				888737BF9BCC27FAEC7B29981449D084 /* WBasicLibrary-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4DE166E43F290154C34F390E009F8C3 /* Headers */ = {
+		6BBDC7A553D1A1ABE382A63FEAD7B564 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C8E387C20FCF3B8000BA30A /* WToast.h in Headers */,
-				C9438B1A4986B90D9E555B6BB3E43CFD /* Pods-WMessage_Tests-umbrella.h in Headers */,
-				1C8E388520FCF3C5000BA30A /* WHUDView.h in Headers */,
+				D9D26804AB89BEB9C1D716EC0E37C783 /* WHUDView.h in Headers */,
+				229EE109DB071B7D8359EA71407BBC5B /* WMessage-umbrella.h in Headers */,
+				24F02C4ED8D7CEF15F77BD3F442ECA53 /* WToast.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F348BC55D4B51B4AB6DE61493578F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0568E71199AFAF8357E355A30E74D7 /* Pods-WMessage_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		279DEE3605796492558A09744756C3FC /* WMessage */ = {
+		0F47635698C1383941C7DED54F00EF29 /* WMessage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71DAD78D4AF0D9E7A023BA54D798D61E /* Build configuration list for PBXNativeTarget "WMessage" */;
+			buildConfigurationList = B31706B5A28161D659DAC6C4142EC7A6 /* Build configuration list for PBXNativeTarget "WMessage" */;
 			buildPhases = (
-				39DB24EEC20578AA10F3EA12DFA74A19 /* Sources */,
-				B10B3677B571B36F0A95592EF53EC00A /* Frameworks */,
-				146D5FF489003A40F792B5FB85DB5799 /* Headers */,
+				FCD55CF054411B8332E122C5E9236E15 /* Sources */,
+				4772C0BFA3D67F3266D8157A72971250 /* Frameworks */,
+				6BBDC7A553D1A1ABE382A63FEAD7B564 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9124833BE008B6E8332ADCAE8AE215E4 /* PBXTargetDependency */,
 			);
 			name = WMessage;
 			productName = WMessage;
-			productReference = FAD8F5C90F5D69D2A38CF1BD018C2E70 /* WMessage.framework */;
+			productReference = 47CE10114E3DAF521111915F33F266F0 /* WMessage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4EE9FC72AE4866B5CE257E9BCF665EED /* Pods-WMessage_Tests */ = {
+		62EDB411A547E94D965ACD3E17F78A25 /* Pods-WMessage_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58944FEA45FE151843195C9ACAAD1EB8 /* Build configuration list for PBXNativeTarget "Pods-WMessage_Tests" */;
+			buildConfigurationList = F83081FA27F21F9AFA941C1749BA8CA7 /* Build configuration list for PBXNativeTarget "Pods-WMessage_Tests" */;
 			buildPhases = (
-				42AF8575D5278F6BD0D3C7CBE55B6B10 /* Sources */,
-				1B6DD39292522E6D8D31A3C7C26BC2E2 /* Frameworks */,
-				B4DE166E43F290154C34F390E009F8C3 /* Headers */,
+				15AD51B9D14C62F5C2521A5008D1CC3E /* Sources */,
+				FA5649F87B5ADDA97545344EBA583330 /* Frameworks */,
+				75F348BC55D4B51B4AB6DE61493578F3 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D69802B441A7A1F050DD298E1A6E4CEF /* PBXTargetDependency */,
+				6950DDA82C0ED484794974C77CCE9C5E /* PBXTargetDependency */,
+				D2F80494DC7D716531B75477D0B58722 /* PBXTargetDependency */,
 			);
 			name = "Pods-WMessage_Tests";
 			productName = "Pods-WMessage_Tests";
-			productReference = F8193C01325A65553D3C7D3EC86064A0 /* Pods_WMessage_Tests.framework */;
+			productReference = FE1A7B1B9B1A4A4FE39E1B8A63179FE0 /* Pods_WMessage_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		84516D4765085933A2DDA9BD878628A3 /* WBasicLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5644DDE9E41E7BF694091F63B3CE38BB /* Build configuration list for PBXNativeTarget "WBasicLibrary" */;
+			buildPhases = (
+				265F03EE6E5710E86CC171A031783D4E /* Sources */,
+				23C2142812C52C392A2DFA0E5EAE5EAC /* Frameworks */,
+				0815A6FACCEB5F76E4F974BD94A1727D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WBasicLibrary;
+			productName = WBasicLibrary;
+			productReference = ADE831810D807E021C5EC945F89FB012 /* WBasicLibrary.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -263,50 +458,84 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BD34C98DF403E925DD8F8358B5222898 /* Products */;
+			productRefGroup = 5EA0E612016EF8BB5AC1AF99E517769C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4EE9FC72AE4866B5CE257E9BCF665EED /* Pods-WMessage_Tests */,
-				279DEE3605796492558A09744756C3FC /* WMessage */,
+				62EDB411A547E94D965ACD3E17F78A25 /* Pods-WMessage_Tests */,
+				84516D4765085933A2DDA9BD878628A3 /* WBasicLibrary */,
+				0F47635698C1383941C7DED54F00EF29 /* WMessage */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		39DB24EEC20578AA10F3EA12DFA74A19 /* Sources */ = {
+		15AD51B9D14C62F5C2521A5008D1CC3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				913F7D05F14ED1CCB64176D070199166 /* WMessage-dummy.m in Sources */,
+				E23298694FC58DB4EBA7857319968052 /* Pods-WMessage_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42AF8575D5278F6BD0D3C7CBE55B6B10 /* Sources */ = {
+		265F03EE6E5710E86CC171A031783D4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C8E388320FCF3C5000BA30A /* WHUDView.m in Sources */,
-				45348C1E8E10C9CEF06F00EFCBC8B5AB /* Pods-WMessage_Tests-dummy.m in Sources */,
-				1C8E387D20FCF3B8000BA30A /* WToast.m in Sources */,
+				3DE4AB9DB168E1006AB0E2CEFE9171E5 /* NSData+AES256_.m in Sources */,
+				ADFA6E10A531EA0B748DCDADEBF58E54 /* NSData+Base64_.m in Sources */,
+				B676324E6C5CAD47452925C1F3AB4F91 /* NSDate+Whandler.m in Sources */,
+				BBEB4A9715EAF728CDEB9DF80714DE1D /* NSMutableArray+WHandler.m in Sources */,
+				65CD4487684B9A1DFD2191F047161703 /* NSObject+Whandler.m in Sources */,
+				6F0C83E26B5208CB96C72D71EE2A2B1E /* NSString+WHandler.m in Sources */,
+				100CD391355939F7CF1444BEF010D4AE /* UIColor+Whandler.m in Sources */,
+				422B1CBC30482750F4B196FCE0316262 /* UIImage+WHandler.m in Sources */,
+				C15D87F8CF7EFB230607577C65FD1EBC /* UILabel+WHandler.m in Sources */,
+				7F4D496EB64B39B44330C11D7E8CF440 /* UIView+WHandler.m in Sources */,
+				9A5AC09A5E1E6505D96120FB2BB7FAE8 /* UIViewController+BasicHandler.m in Sources */,
+				1AF872237A3ED790E7FADEB45A3B6D68 /* UIViewController+TableHandler.m in Sources */,
+				302606A61E2287CD29A05EE8B0CBAF58 /* UIViewController+WebHandler.m in Sources */,
+				D5F1C827858D11A87516299281BA8EBB /* WBasicLibrary-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD55CF054411B8332E122C5E9236E15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C9B009E3123B393DB171C0BFDBDCD23 /* WHUDView.m in Sources */,
+				5A853340EF6F6373CB6222636FDE8927 /* WMessage-dummy.m in Sources */,
+				BB90B545927E81850037468277DFE145 /* WToast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D69802B441A7A1F050DD298E1A6E4CEF /* PBXTargetDependency */ = {
+		6950DDA82C0ED484794974C77CCE9C5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WBasicLibrary;
+			target = 84516D4765085933A2DDA9BD878628A3 /* WBasicLibrary */;
+			targetProxy = BDE743238F8B4857D29A61A7CC34683F /* PBXContainerItemProxy */;
+		};
+		9124833BE008B6E8332ADCAE8AE215E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WBasicLibrary;
+			target = 84516D4765085933A2DDA9BD878628A3 /* WBasicLibrary */;
+			targetProxy = 88A5FBFF85B614AD6626B4F2255263F3 /* PBXContainerItemProxy */;
+		};
+		D2F80494DC7D716531B75477D0B58722 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WMessage;
-			target = 279DEE3605796492558A09744756C3FC /* WMessage */;
-			targetProxy = 6431F9FDF71A6F4DDDFCBFF1D0CA2A5E /* PBXContainerItemProxy */;
+			target = 0F47635698C1383941C7DED54F00EF29 /* WMessage */;
+			targetProxy = 16E56B3C42CDEB051F6ADBCC38F6BF71 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		128F797B4D5864F01C23401E331C251E /* Debug */ = {
+		376BFE3E6C5351423D43ADFB5330393F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 506EDBBD2BB8C1D815732F753CD6EF18 /* WMessage.xcconfig */;
+			baseConfigurationReference = F670036022488F78B58B13F6807F3C59 /* WMessage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -320,7 +549,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/WMessage/WMessage-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/WMessage/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/WMessage/WMessage.modulemap";
 				PRODUCT_MODULE_NAME = WMessage;
@@ -329,15 +558,17 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		18778BA309F7B2F04A72D1CE582CBDE1 /* Release */ = {
+		69FAFD8D0F4E17D4F07B71BDB4CDAD07 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 506EDBBD2BB8C1D815732F753CD6EF18 /* WMessage.xcconfig */;
+			baseConfigurationReference = 77FC3221B9220FBC355B0BE725A05FF6 /* Pods-WMessage_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -347,17 +578,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WMessage/WMessage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WMessage/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WMessage_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WMessage/WMessage.modulemap";
-				PRODUCT_MODULE_NAME = WMessage;
-				PRODUCT_NAME = WMessage;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WMessage_Tests/Pods-WMessage_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -428,11 +661,10 @@
 			};
 			name = Debug;
 		};
-		9A11E2EC0D4669E11D35D2FB4C52CA80 /* Debug */ = {
+		B383106D8CD7852AAA3C3E44BFC75A01 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3075DECBCDAEE25BC44E71354373603C /* Pods-WMessage_Tests.debug.xcconfig */;
+			baseConfigurationReference = B3C368C4E1BEB74571563FCE8B9246E2 /* WBasicLibrary.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -442,24 +674,53 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WMessage_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/WBasicLibrary/WBasicLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WBasicLibrary/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WMessage_Tests/Pods-WMessage_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/WBasicLibrary/WBasicLibrary.modulemap";
+				PRODUCT_MODULE_NAME = WBasicLibrary;
+				PRODUCT_NAME = WBasicLibrary;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		B409A3A1D5162C387EA20AE209F34B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C368C4E1BEB74571563FCE8B9246E2 /* WBasicLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WBasicLibrary/WBasicLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WBasicLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WBasicLibrary/WBasicLibrary.modulemap";
+				PRODUCT_MODULE_NAME = WBasicLibrary;
+				PRODUCT_NAME = WBasicLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -519,9 +780,39 @@
 			};
 			name = Release;
 		};
-		BC2C8A5F3CF2E8FD78E738261CC68A33 /* Release */ = {
+		BC4B65E2314AD8EEDAF856387E95BAE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77FC3221B9220FBC355B0BE725A05FF6 /* Pods-WMessage_Tests.release.xcconfig */;
+			baseConfigurationReference = F670036022488F78B58B13F6807F3C59 /* WMessage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WMessage/WMessage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WMessage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WMessage/WMessage.modulemap";
+				PRODUCT_MODULE_NAME = WMessage;
+				PRODUCT_NAME = WMessage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECC18174927F9E2EA7FC80D89A1BB98C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3075DECBCDAEE25BC44E71354373603C /* Pods-WMessage_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -547,11 +838,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -565,20 +855,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58944FEA45FE151843195C9ACAAD1EB8 /* Build configuration list for PBXNativeTarget "Pods-WMessage_Tests" */ = {
+		5644DDE9E41E7BF694091F63B3CE38BB /* Build configuration list for PBXNativeTarget "WBasicLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A11E2EC0D4669E11D35D2FB4C52CA80 /* Debug */,
-				BC2C8A5F3CF2E8FD78E738261CC68A33 /* Release */,
+				B383106D8CD7852AAA3C3E44BFC75A01 /* Debug */,
+				B409A3A1D5162C387EA20AE209F34B1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71DAD78D4AF0D9E7A023BA54D798D61E /* Build configuration list for PBXNativeTarget "WMessage" */ = {
+		B31706B5A28161D659DAC6C4142EC7A6 /* Build configuration list for PBXNativeTarget "WMessage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				128F797B4D5864F01C23401E331C251E /* Debug */,
-				18778BA309F7B2F04A72D1CE582CBDE1 /* Release */,
+				BC4B65E2314AD8EEDAF856387E95BAE7 /* Debug */,
+				376BFE3E6C5351423D43ADFB5330393F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F83081FA27F21F9AFA941C1749BA8CA7 /* Build configuration list for PBXNativeTarget "Pods-WMessage_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC18174927F9E2EA7FC80D89A1BB98C /* Debug */,
+				69FAFD8D0F4E17D4F07B71BDB4CDAD07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

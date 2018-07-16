@@ -1,16 +1,23 @@
 PODS:
-  - WMessage (0.1.0)
+  - WBasicLibrary (0.3.2)
+  - WMessage (0.1.0):
+    - WBasicLibrary
 
 DEPENDENCIES:
   - WMessage (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - WBasicLibrary
 
 EXTERNAL SOURCES:
   WMessage:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WMessage: 2b50ee06bf98ee576b6c785a21130cfca2ba7afa
+  WBasicLibrary: 60f1429f6ab2c3b6059de630bcfd8c26b435a46e
+  WMessage: 34ae5680ef97951bb0f20a2166a7c1b5267faaca
 
 PODFILE CHECKSUM: 336cd5af9f72e80e259b71e12d7a6e1719d250eb
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3
