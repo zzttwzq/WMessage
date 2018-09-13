@@ -6,10 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MicroDefinetion.h"
 
 @interface WHUDView : UIView
-
 /**
  显示view
  */
@@ -23,6 +21,7 @@
  取消view
  */
 + (void) dismissLoading;
+
 
 + (void) dismissMessage;
 @end
