@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WMessage'
-  s.version          = '0.1.1'
+  s.version          = '0.1.3'
   s.summary          = 'ios objc 包含吐司，等待试图，提示等消息视图'
 
 # This description is used to generate tags and improve search results.
