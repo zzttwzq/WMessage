@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0A4B1E37E085E3335D5954D8B17B0179 /* Pods-WMessage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F79F685B7A6846CE67C35ED2AD0042FE /* Pods-WMessage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C8DC81F215DFF6B001F3117 /* WAlertTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8DC81D215DFF6B001F3117 /* WAlertTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C8DC820215DFF6B001F3117 /* WAlertTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8DC81D215DFF6B001F3117 /* WAlertTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C8DC821215DFF6B001F3117 /* WAlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8DC81E215DFF6B001F3117 /* WAlertTool.m */; };
+		1C8DC822215DFF6B001F3117 /* WAlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8DC81E215DFF6B001F3117 /* WAlertTool.m */; };
 		1CEB62E5214A4B7B00EF108C /* WHUDView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E0F16CBB6048F0EE43BAFC2F7CE93AB /* WHUDView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1CEB62E6214A4C0000EF108C /* WToast.h in Headers */ = {isa = PBXBuildFile; fileRef = C3D0AF6016F997D18740B4A399B9EEC0 /* WToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8795789AF17738145370836D62A06CCC /* WHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B6B312D1F85EE89DC76D522C19F2F9 /* WHUDView.m */; };
@@ -34,6 +38,8 @@
 /* Begin PBXFileReference section */
 		00D918493FE927FBED5112C79F245082 /* WToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WToast.m; path = WMessage/Classes/WToast.m; sourceTree = "<group>"; };
 		01A2F553C9C3F1C132DD63C46F1F8729 /* WMessage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = WMessage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1C8DC81D215DFF6B001F3117 /* WAlertTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WAlertTool.h; path = WMessage/Classes/WAlertTool.h; sourceTree = "<group>"; };
+		1C8DC81E215DFF6B001F3117 /* WAlertTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WAlertTool.m; path = WMessage/Classes/WAlertTool.m; sourceTree = "<group>"; };
 		2955773F20D355CBEE9C63AAFC1AD234 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		30689998185BA640EACB3375E65AB396 /* Pods-WMessage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WMessage_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3B55F9B428E468E36393E85E3F0C36D4 /* WMessage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WMessage.modulemap; sourceTree = "<group>"; };
@@ -160,6 +166,8 @@
 		D6EA7957ED35BF937B7D3E4527DB3FA5 /* WMessage */ = {
 			isa = PBXGroup;
 			children = (
+				1C8DC81D215DFF6B001F3117 /* WAlertTool.h */,
+				1C8DC81E215DFF6B001F3117 /* WAlertTool.m */,
 				7E0F16CBB6048F0EE43BAFC2F7CE93AB /* WHUDView.h */,
 				B0B6B312D1F85EE89DC76D522C19F2F9 /* WHUDView.m */,
 				C3D0AF6016F997D18740B4A399B9EEC0 /* WToast.h */,
@@ -199,6 +207,7 @@
 				1CEB62E6214A4C0000EF108C /* WToast.h in Headers */,
 				0A4B1E37E085E3335D5954D8B17B0179 /* Pods-WMessage_Example-umbrella.h in Headers */,
 				1CEB62E5214A4B7B00EF108C /* WHUDView.h in Headers */,
+				1C8DC81F215DFF6B001F3117 /* WAlertTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +218,7 @@
 				9D41700BD3D10A6A5AAAF6C490297EB8 /* WHUDView.h in Headers */,
 				E5C91AF0812FC8470F240F9E89A20F09 /* WMessage-umbrella.h in Headers */,
 				9D019FF8746365F871C0EAE0807E2021 /* WToast.h in Headers */,
+				1C8DC820215DFF6B001F3117 /* WAlertTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C8DC822215DFF6B001F3117 /* WAlertTool.m in Sources */,
 				8795789AF17738145370836D62A06CCC /* WHUDView.m in Sources */,
 				C73FD059B20104E0D1894598C82568E2 /* WMessage-dummy.m in Sources */,
 				FF64760E5750E1072D1A562AF94E9111 /* WToast.m in Sources */,
@@ -292,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C8DC821215DFF6B001F3117 /* WAlertTool.m in Sources */,
 				E1AE760804A1FA262C4F3081CF56A753 /* Pods-WMessage_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
